@@ -1,27 +1,5 @@
-# A free, feature-rich Streamlit weather app using open-source APIs (Open-Meteo family)
-# No API keys required.
-#
-# Features:
-# - Geocoding via Open-Meteo Geocoding API
-# - Weather forecast (current, hourly, daily) via Open-Meteo Forecast API
-# - Air Quality (PM2.5/PM10/O3/NO2/SO2) via Open-Meteo Air Quality API
-# - Sunrise/Sunset, UV Index (if available), precipitation probability
-# - Wardrobe assistant & lifestyle/health tips (AQI + UV + conditions)
-# - Rain start/stop detector from hourly forecast
-# - Interactive charts (Plotly) and map (pydeck/Streamlit map)
-# - Caching of API calls
-#
-# Run locally:
-#   pip install -r requirements.txt
-#   streamlit run streamlit_app.py
-#
-# Suggested requirements.txt:
-#   streamlit
-#   requests
-#   pandas
-#   numpy
-#   plotly
-#   pytz
+import os
+os.system("pip install plotly")  # Ensure plotly is installed before import
 
 import math
 import time
