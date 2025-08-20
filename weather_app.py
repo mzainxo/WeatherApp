@@ -1,6 +1,6 @@
 import os
-os.system("pip install --upgrade pip")  # Ensure plotly is installed before import
-os.system("pip install plotly")  
+os.system("pip3 install plotly")  # Ensure plotly is installed before import
+
 import math
 import time
 from datetime import datetime, timedelta
